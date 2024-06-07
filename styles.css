@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .nav-link {
+    color: #fff;
+}
+
+.bg-light{
+    background-color: transparent !important; 
+}
+
+.image{
+    height: 300px;
+    width: 500px;
+    float: right;
+}
+
+header {
+    background-color: rgb(33, 190, 218);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.navbar-toggler {
+    border: none;
+  }
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.intro button {
+    padding: 1rem 2rem;
+    background-color: rgb(33, 190, 218);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: #98f1e3;
+}
+
+.testimonials {
+    margin: 2rem 0;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: rgb(33, 190, 218);
+    color: rgb(2, 1, 1);
+    text-align: center;
+    padding: 1rem 0;
+
+    width: 100%;
+    bottom: 0;
+}
+
+.query{
+    width: 30%;
+    height: 50%;
+    padding: 50px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .3);
+    float: right;
+}
+
+div.scroll-container {
+    background-color: #fdfdfd;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slider {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* footer section start */
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-size:14px;
+	background: #fff;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+	font-family: poppins;
+	
+
+}
+#footer{
+	background: #fcf2f2;
+    padding: 3rem;
+
+	padding-top: 7rem;
+    padding-bottom: 80px;
+	
+}
+#footer2{
+	background: #000000;
+    padding: 3rem;
+    margin-top: 0px;
+	
+	padding-top: 7rem;
+    padding-bottom: 80px;
+	background-image: url(../images/cards/v748-toon-111.png);
+}
+
+
+.social-links h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.social-links img{
+	padding-bottom: 25px;
+}
+.social-icons{
+
+	display: flex;
+    flex-direction: column;
+    gap: 1rem;
+	color: #777777;
+}
+.social-icons a{
+	/* font-size: 18px; */
+    /* background: #ffffff; */
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+	color: #82074a; */
+	/* margin-right: 18px; */
+	color: #777777;
+}
+.social-icons a:hover{
+	color: #000;
+}
+.social-icons a i{
+	box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+    color: #82074a;
+	font-size: 16px;
+	margin-right: 12px;
+}
+li{
+	list-style: none;
+}
+.useful-link h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.useful-link img{
+	padding-bottom: 15px;
+}
+.use-links{
+	line-height: 32px;
+}
+.use-links li i{
+	font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+}
+.use-links li a{
+	color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+	color: #777777;
+}
+.use-links li a:hover{
+	color: #000;
+}
+.address h2{
+	padding-bottom: 15px;
+	font-size: 20px;
+    font-weight: 600;
+}
+.address img{
+	padding-bottom: 15px;
+}
+.address-links li a{
+	color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+	color: #777777;
+
+}
+.address-links li i{
+	font-size: 16px;
+    padding-right: 8px;
+	color: #82074a;
+
+}
+.address-links li i:nth-child(1){
+	padding-top: 9px;
+}
+.address-links .address1{
+	font-weight: 500;
+    font-size: 15px;
+	display: flex;
+}
+.address-links{
+	    line-height: 32px;
+		color: #777777;
+}
+.copy-right-sec{
+	padding: 1.8rem;
+    background: #0a949e;
+    color: #e6dddd;
+    text-align: center;
+}
+.copy-right-sec a{
+	color: #fcd462;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+
+/* footer section end */
