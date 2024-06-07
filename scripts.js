@@ -2,6 +2,7 @@ var btn = $(".submit-btn");
 
 btn.click(function(){
   alert("Your Form has been Submitted.");
+  window.location.href = "index.html"; 
 });
 
 $(document).ready(function(){
