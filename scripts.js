@@ -2,7 +2,7 @@ var btn = $(".submit-btn");
 
 btn.click(function(){
   alert("Your Form has been Submitted.");
-  window.location.href = "index.html"; 
+  window.location.href = "https://sukhi714.github.io/Hospital-Website-Assignment-/"; 
 });
 
 $(document).ready(function(){
